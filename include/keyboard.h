@@ -1,0 +1,9 @@
+#ifndef KEYBOARD_H
+#define KEYBOARD_H
+
+void keyboard_init(void);
+char keyboard_getchar(void);   
+int  keyboard_haschar(void);
+int  keyboard_key_down(char c);   
+
+#endif
